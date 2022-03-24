@@ -2,24 +2,26 @@ package chapter8;
 
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class FibonacciTest {
 
     @Test
     public void testFibonacci() {
         int result = fibonacci(10);
-        assert (result == 55);
+        assertEquals(55, result);
     }
 
     @Test
     public void testFibonacci1() {
         int result = fibonacci1(10);
-        assert (result == 55);
+        assertEquals(55, result);
     }
 
     @Test
     public void testFibonacci2() {
         int result = fibonacci2(10);
-        assert (result == 55);
+        assertEquals(55, result);
     }
 
     int fibonacci(int k) {
