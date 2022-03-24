@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chapter8.FibonacciTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-24T12:15:44" hostname="EXTREME" time="0.009">
+  <properties/>
+  <testcase name="testFibonacci2()" classname="chapter8.FibonacciTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
